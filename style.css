@@ -1,0 +1,35 @@
+body {
+    color: #95a5a6;
+    font-family: Arial;
+}
+
+.fence {
+    background-color: #2ecc71;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.fence:after {
+    display: inline-block;
+    height: 100%;
+    content: "";
+    vertical-align: middle;
+}
+
+.grass {
+    background-color: #34495e;
+    display: inline-block;
+    max-width: 700px;
+    max-height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 30px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
